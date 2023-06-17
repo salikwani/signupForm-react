@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: black;
+    font-family: 'Geologica', sans-serif;
+}
+
+body {
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 75%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+input {
+    font-family: 'Geologica', sans-serif;
+    outline: none;
+    border: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+    font-size: 1.5em;
+    color: white;
+}
+
+button {
+    font-family: 'Geologica', sans-serif;
+    align-self: flex-start;
+    padding: .5rem 1.5rem;
+    font-size: 1.5em;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: greenyellow;
+}
